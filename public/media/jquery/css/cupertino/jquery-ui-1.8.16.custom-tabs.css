@@ -126,7 +126,7 @@
 }
 
 .ui-widget-content {
-	border: 1px solid #BBBBBB !important; /* added by sapplica */
+	border: 1px solid #BBBBBB !important; /* added by Webshar */
 	/*background: #f2f5f7 url(images/ui-bg_highlight-hard_100_f2f5f7_1x100.png) 50% top repeat-x;*/
    /* background-color: #ffffff;		 */
 	color: #362b36;
@@ -145,7 +145,7 @@
 -moz-border-top-colors: none;
 filter : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ededed',GradientType=0); BORDER-LEFT: #cccccc 1px solid;
 		/**
-		**	modified by Sapplica
+		**	modified by Webshar
 		**  date 5/1/2013
 		**  ln 153
 		**/
@@ -294,7 +294,7 @@ line-height: 23px;
 	background-image: url(images/ui-icons_3d80b3_256x240.png);
 }
 /**
-**	modified by Sapplica
+**	modified by Webshar
 **  date 5/1/2013
 **  ln 299,300
 **/

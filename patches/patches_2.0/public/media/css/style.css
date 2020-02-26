@@ -1,6 +1,6 @@
 /********************************************************************************* 
  *  This file is part of Sentrifugo.
- *  Copyright (C) 2014 Sapplica
+ *  Copyright (C) 2014 Webshar
  *   
  *  Sentrifugo is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Sentrifugo Support <support@sentrifugo.com>
+ *  Sentrifugo Support <support@webshar.org>
  ********************************************************************************/
  
 @charset "utf-8";
@@ -80,7 +80,7 @@ margin:0 auto;
 /*font-family:Arial, Helvetica, sans-serif;
 font-size:11px;*/
 font-family: 'PTSansRegular'; font-size:14px;
-/* text-align:center; by sapplica*/
+/* text-align:center; by Webshar*/
 background:url(../images/debut_dark.png) repeat left top;
 }
 #mainDiv { margin:0 auto; width:100%; min-width:992px; }
@@ -529,7 +529,7 @@ a.button { height: 23px; }
 }
 .formElement label, .defaultFormElement label { float:left;	}
  
-#page-container { width: 100%; /* !Important; sapplica */margin:0 auto; }
+#page-container { width: 100%; /* !Important; Webshar */margin:0 auto; }
 #header {
 /* background-image:url(../images/header_bg.png);
 background-repeat:repeat-x;
@@ -553,10 +553,10 @@ background-repeat:repeat-x;
 background-position:center;
 	height:42px;
 
-} commented by sapplica */ 
+} commented by Webshar */ 
 
 
-/* added by sapplica 
+/* added by Webshar 
 .menu{ min-height:517px; width:100%; background:url(../images/wild_oliva.png) repeat; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; -webkit-box-shadow: inset 0px 1px 0px 0px #686868; box-shadow: inset 0px 1px 0px 0px #686868; border:1px solid #000000; margin:0 0 10px 0;}
 .menu ul{margin:0 0 0 0; padding:0 0 0 0;}
 .menu ul li{ list-style:none; margin:14px 10px 20px 25px; }
@@ -1266,14 +1266,14 @@ a.userprofilepic b.up {
     margin: 6px 0 0 10px;
     width: 8px;
 }
-/* sapplica code ends */
+/* Webshar code ends */
 
 #header .links {
 
 	/* width:336px;
 	float:right;
 	height:34px; 
-	modified by sapplica */ 
+	modified by Webshar */ 
 	color: #FFFFFF;
     float: right;
     font-family: 'PTSansRegular';
@@ -1283,7 +1283,7 @@ a.userprofilepic b.up {
 }
 #header p{
 	margin:0;
-	font-family: 'PTSansRegular',sans-serif; /*Added By Sapplica */
+	font-family: 'PTSansRegular',sans-serif; /*Added By Webshar */
 	font-size:14px;
 	padding-top:10px;
 	color:#8a8887;
@@ -1294,14 +1294,14 @@ a.userprofilepic b.up {
 	
 	#header span{
 	/*margin:0;*/
-	font-family: 'PTSansRegular',sans-serif; /*Added By Sapplica */
+	font-family: 'PTSansRegular',sans-serif; /*Added By Webshar */
 	font-size:14px;
 	/*padding-top:10px;*/
 	color:#000000;
 	/*padding-left:10px;*/}
 	
 	#header span a{
-	font-family: 'PTSansRegular',sans-serif; /*Added By Sapplica */
+	font-family: 'PTSansRegular',sans-serif; /*Added By Webshar */
 	font-size:14px;
 	padding-top:10px;
 	color:#FFF;
@@ -1340,7 +1340,7 @@ a.userprofilepic b.up {
 	min-height:	425px;
 	float: left;
 	width: 100%;
-	margin: 10px 0px 10px 0px;  commented by sapplica*/
+	margin: 10px 0px 10px 0px;  commented by Webshar*/
 	/*margin: 15px 0;*/ margin:0 0 15px 0;
     position: relative;
     width: 100%;
@@ -1513,7 +1513,7 @@ right: 14px;
 top: 8px;
 }
 
-/* Added by sapplica, for changing the loader*/
+/* Added by Webshar, for changing the loader*/
 .loading { position: absolute; top: 45%; left: 45%; width: 48px; height: 48px; z-index: 101; padding: 6px; margin: 5px; text-align: center; font-weight: bold; display: none; border-width: 2px !important;
 background:url('../images/loader2.gif') no-repeat center;}
 

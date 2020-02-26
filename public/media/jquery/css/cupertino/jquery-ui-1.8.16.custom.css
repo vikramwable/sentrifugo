@@ -127,7 +127,7 @@
 }
 
 .ui-widget-content {
-	border: 1px solid #BBBBBB; /* added by sapplica */
+	border: 1px solid #BBBBBB; /* added by Webshar */
 	/*background: #f2f5f7 url(images/ui-bg_highlight-hard_100_f2f5f7_1x100.png) 50% top repeat-x;*/
    background-color: #ffffff;		 
 	color: #362b36;
@@ -142,7 +142,7 @@
 
 /* filter : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ededed',GradientType=0); */ 
 		/**
-		**	modified by Sapplica
+		**	modified by Webshar
 		**  date 5/1/2013
 		**  ln 153
 		**/
@@ -314,7 +314,7 @@ box-shadow:         1px -2px 3px  rgba(0, 0, 0, 0.75);
 	background-image: url(images/ui-icons_3d80b3_256x240.png);
 }
 /**
-**	modified by Sapplica
+**	modified by Webshar
 **  date 5/1/2013
 **  ln 299,300
 **/
@@ -1144,7 +1144,7 @@ box-shadow:         1px -2px 3px  rgba(0, 0, 0, 0.75);
 	position: absolute;
 	font-size: 0.1px;
 	z-index: 99999;
-	/*display: block; by sapplica*/
+	/*display: block; by Webshar*/
 	display: none !important;
 }
 
@@ -1395,11 +1395,11 @@ button.ui-button-icons-only {
 /*button text element */
 .ui-button .ui-button-text {
 	/* display: block;
-	line-height: 1.4; by sapplica */
+	line-height: 1.4; by Webshar */
 }
 
 .ui-button-text-only .ui-button-text {
-	/*padding: .4em 1em; by sapplica */
+	/*padding: .4em 1em; by Webshar */
 }
 
 .ui-button-icon-only .ui-button-text,.ui-button-icons-only .ui-button-text
@@ -1565,7 +1565,7 @@ overflow:hidden !important;
 
 .ui-dialog .ui-dialog-buttonpane button {
 	/* margin: .5em .4em .5em 0;
-	cursor: pointer; by sapplica */
+	cursor: pointer; by Webshar */
 }
 
 .ui-dialog .ui-resizable-se {

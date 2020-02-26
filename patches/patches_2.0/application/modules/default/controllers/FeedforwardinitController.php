@@ -1,7 +1,7 @@
 <?php
 /********************************************************************************* 
  *  This file is part of Sentrifugo.
- *  Copyright (C) 2014 Sapplica
+ *  Copyright (C) 2014 Webshar
  *   
  *  Sentrifugo is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Sentrifugo Support <support@sentrifugo.com>
+ *  Sentrifugo Support <support@webshar.org>
  ********************************************************************************/
 
 class Default_FeedforwardinitController extends Zend_Controller_Action
@@ -539,7 +539,7 @@ class Default_FeedforwardinitController extends Zend_Controller_Action
 						$menuID = $menuidArr[0]['id'];
 						$result = sapp_Global::logManager($menuID,$actionflag,$loginUserId,$id);
 						/***
-						** commented on 29-04-2015 by sapplica
+						** commented on 29-04-2015 by Webshar
 						** need to integrate mail template							
 							$configmail = sapp_Global::send_configuration_mail('Feed Forward',$ffdata[0]['ff_mode']);		
 						***/							

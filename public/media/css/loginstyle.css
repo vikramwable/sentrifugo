@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 /*	background: #ffffff url(../images/hrms_login_bg.jpg) repeat-x top left;
-*/	/* font-family: 'PT Sans',sans-serif; */ /*Commented by sapplica */
+*/	/* font-family: 'PT Sans',sans-serif; */ /*Commented by Webshar */
 	font-family:'latoregular',sans-serif;
 	font-size:12px;
 	background:#fff;
@@ -14,13 +14,13 @@ input, textarea, select, a { outline: none; }
 
 button:focus,  input:focus { outline: none;}
 .row_1{}
-.wrapper { /* Commented by sapplica */margin:50px auto; width:390px; z-index: 101; }
+.wrapper { /* Commented by Webshar */margin:50px auto; width:390px; z-index: 101; }
 
 .logo-login { 
-	/* Added by sapplica */
+	/* Added by Webshar */
 	background: url("../images/logo-admin.png") no-repeat scroll center center transparent;  margin: 0 auto; padding-top: 22px; height: 41px; width: 167px; }
 .box {
-	/* Commented by sapplica */
+	/* Commented by Webshar */
     /* margin: 0 auto;
     position: relative;
     z-index: 110; */	
@@ -77,7 +77,7 @@ button:active, input[type="submit"]:active, a.button:active, .customfile-focus b
 	display: inline; 
 	text-transform:uppercase;
 }
-/* Added by sapplica */
+/* Added by Webshar */
 .copy-text { font-size: 12px; }
 .copy-right { 
 	float:left; 

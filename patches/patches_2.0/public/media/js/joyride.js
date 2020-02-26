@@ -1,6 +1,6 @@
 /********************************************************************************* 
  *  This file is part of Sentrifugo.
- *  Copyright (C) 2014 Sapplica
+ *  Copyright (C) 2014 Webshar
  *   
  *  Sentrifugo is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Sentrifugo Support <support@sentrifugo.com>
+ *  Sentrifugo Support <support@webshar.org>
  ********************************************************************************/
 
 //$(document).ready(function(){
@@ -91,7 +91,7 @@
 						"bgcolor"	: "black",
 						"color"		: "white",
 						"position"	: "TL",
-						"text"		: 'Sentrifugo Dashboard is a real time user interface allowing you to have all the menus that are used regularly, at one place. The “easy to read” display of the menus covers overall information present in each menu with clickable sub menus to navigate to the desired page avoiding tiresome menu redirections. The display of dandy default features, birthdays and announcements, takes Sentrifugo to another level altogether.' ,
+						"text"		: 'Sentrifugo Dashboard is a real time user interface allowing you to have all the menus that are used regularly, at one place. The ï¿½easy to readï¿½ display of the menus covers overall information present in each menu with clickable sub menus to navigate to the desired page avoiding tiresome menu redirections. The display of dandy default features, birthdays and announcements, takes Sentrifugo to another level altogether.' ,
 						"time" 		: 5000
 						};
 					configArr.push(obj);

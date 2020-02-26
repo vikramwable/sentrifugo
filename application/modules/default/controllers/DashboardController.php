@@ -1,7 +1,7 @@
 <?php
 /********************************************************************************* 
  *  This file is part of Sentrifugo.
- *  Copyright (C) 2015 Sapplica
+ *  Copyright (C) 2015 Webshar
  *   
  *  Sentrifugo is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Sentrifugo Support <support@sentrifugo.com>
+ *  Sentrifugo Support <support@webshar.org>
  ********************************************************************************/
 
 class Default_DashboardController extends Zend_Controller_Action{
@@ -1103,7 +1103,7 @@ class Default_DashboardController extends Zend_Controller_Action{
 	            );	
 	   }         
 		/**
-			*	Added By	:	Sapplica.
+			*	Added By	:	Webshar.
 			*	Date of Modification	:	30/08/2013
 			*	Purpose	:	Some of the menus should not be draggable for widgets
 			*	Modified By	:	MAINAK.		

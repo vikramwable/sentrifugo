@@ -133,7 +133,7 @@
 				textAlign:	'center',
 				color:		'#000',
 				//border:		'3px solid #aaa',
-				//backgroundColor:'#fff', by sapplica
+				//backgroundColor:'#fff', by Webshar
 				cursor:		'wait'
 			},
 

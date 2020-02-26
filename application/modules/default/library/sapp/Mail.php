@@ -1,7 +1,7 @@
 <?php
 /********************************************************************************* 
  *  This file is part of Sentrifugo.
- *  Copyright (C) 2014 Sapplica
+ *  Copyright (C) 2014 Webshar
  *   
  *  Sentrifugo is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Sentrifugo Support <support@sentrifugo.com>
+ *  Sentrifugo Support <support@webshar.org>
  ********************************************************************************/
 include 'PHPMailer/PHPMailerAutoload.php';
 error_reporting(E_ALL | ~E_NOTICE | ~E_WARNING);
@@ -107,7 +107,7 @@ class sapp_Mail
 			   $smtpServer = MAIL_SMTP;
 		}               
 		
-		//end of sapplica mail configuration
+		//end of Webshar mail configuration
 		return self::send_php_mail($config, $smtpServer, $imgsource, $options);
 }	
 
@@ -157,7 +157,7 @@ public static function _checkMail($options = array()) {
 			$smtpServer = $options['server_name'];
 		}
 		
-		//end of sapplica mail configuration
+		//end of Webshar mail configuration
 		return self::send_php_mail($config, $smtpServer, $imgsource, $options);		
 }
 

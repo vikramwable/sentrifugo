@@ -1,7 +1,7 @@
 <?php 
 /********************************************************************************* 
  *  This file is part of Sentrifugo.
- *  Copyright (C) 2014 Sapplica
+ *  Copyright (C) 2014 Webshar
  *   
  *  Sentrifugo is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Sentrifugo Support <support@sentrifugo.com>
+ *  Sentrifugo Support <support@webshar.org>
  ********************************************************************************/
 ?>
 
@@ -33,7 +33,7 @@ $baseUrl = $this->serverUrl().$this->baseUrl();
 <head>
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="expires" content="0">
-<title> Sapplica-<?php echo APPLICATION_NAME; ?></title>
+<title> Webshar-<?php echo APPLICATION_NAME; ?></title>
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 
 <meta http-equiv="Content-Language" content="en-us" />
@@ -107,7 +107,7 @@ var projectPath =  '/Sentrifugo/';
 $(document).ready(function(){
 	$('.logoutdiv').hide(); 
 	
-	/* Added By sapplica, for logout dropdown */
+	/* Added By Webshar, for logout dropdown */
 	$(document).click(function(e)  {
 		if(e.target.id == "logoutbutton" || e.target.id == "prof_image" || e.target.id == "prof_name" || e.target.id == 'b_id')
 		{
@@ -364,7 +364,7 @@ $loginUserName = ""; $loginUserId = '';
 				<!-- Header Part Starts-->
 				<div id="header">					
 					<?php  if($auth->hasIdentity()){ ?>
-					<a href="<?php echo BASE_URL;?>" style="text-decoration:none;" class="logo"></a> <!-- added by sapplica -->
+					<a href="<?php echo BASE_URL;?>" style="text-decoration:none;" class="logo"></a> <!-- added by Webshar -->
 					
 					<div class="links">
 	                    <label class="site-link">Configure Site</label><small>|</small>
@@ -402,7 +402,7 @@ $loginUserName = ""; $loginUserId = '';
 								<img id="img-spinner"
 									src="<?php echo MEDIA_PATH;?>images/loader2.gif" alt="Loading" />				
 							</div>
-							<div id="wrapper"> <!-- added by sapplica -->
+							<div id="wrapper"> <!-- added by Webshar -->
 								<div class="wrapperdiv">	
                                  							
 									<div class="full-page" >
@@ -456,12 +456,12 @@ Maecenas mattis semper dapibus. In non elit vel diam aliquet sodales. Nam euismo
 				<div id="dialog" title="Confirmation Required" style="display: none;">
 				    <div id="dialogText"></div> 
                  </div>
-				<div class="footerdivbg"> <!-- added by sapplica -->
+				<div class="footerdivbg"> <!-- added by Webshar -->
 					<?php if($auth->hasIdentity()) {?>
 					<a class="settings" href="<?php echo BASE_URL; ?>viewsettings/1">
 						<img width="18" height="19" border="0" src="<?php echo MEDIA_PATH; ?>images/settings_icon.png">
 					</a>
-					<!-- Added by sapplica
+					<!-- Added by Webshar
 					Here we are displaying the recently clicked tabs by the user -->					
 				</div>
 		</div>
@@ -479,7 +479,7 @@ Maecenas mattis semper dapibus. In non elit vel diam aliquet sodales. Nam euismo
 <?php }else { ?>
 <link rel="stylesheet" type="text/css" href="<?php echo MEDIA_PATH; ?>css/loginstyle.css" />
 <footer>
-	<div class="footer-text">&copy; Sentrifugo, All Rights Reserved.</div>
+	<div class="footer-text">&copy; Webshar, All Rights Reserved.</div>
 </footer> 
 <?php } ?>
 

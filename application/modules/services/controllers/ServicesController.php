@@ -1,7 +1,7 @@
 <?php
 /********************************************************************************* 
  *  This file is part of Sentrifugo.
- *  Copyright (C) 2014 Sapplica
+ *  Copyright (C) 2014 Webshar
  *   
  *  Sentrifugo is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with Sentrifugo.  If not, see <http://www.gnu.org/licenses/>.
  *
- *  Sentrifugo Support <support@sentrifugo.com>
+ *  Sentrifugo Support <support@webshar.org>
  ********************************************************************************/
 
 
@@ -71,7 +71,7 @@ class Services_ServicesController extends Zend_Controller_Action
 	{
 		$keys = Zend_Registry::get('config.services');		
 		$this->clientKey = $keys['testapp']['secret'];		
-		$client = new sapp_HttpClient("testapp","sapplica");		
+		$client = new sapp_HttpClient("testapp","Webshar");		
 		$signature = $client->signArguments($keys);	
 		if($signature == 'f229e1329e659c4011540b04a22a29d3')
 			return true;			

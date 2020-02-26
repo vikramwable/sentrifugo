@@ -20,7 +20,7 @@ div.selector span,
 div.checker span,
 div.radio span,
 div.uploader,
-/*div.uploader span.action by sapplica */ {
+/*div.uploader span.action by Webshar */ {
 	background-image: url("images/sprite.png");
 	background-repeat: no-repeat;
 }
@@ -245,12 +245,12 @@ div.radio.disabled.active span.checked {
 /* uploader */
 
 div.uploader {
-	/*background-position: 0px -366px; by sapplica*/
+	/*background-position: 0px -366px; by Webshar*/
 	height: 32px;
 }
 
 div.uploader span.action {
-	/* background-position: right -494px; by sapplica 
+	/* background-position: right -494px; by Webshar 
 	height: 24px;
 	line-height: 24px; */
 	/*background: url(images/upload-btn-bg.png) repeat-x left top;  border: 1px solid #adadad; */
@@ -264,7 +264,7 @@ div.uploader span.filename {
 	line-height: 24px;
 }
 
-/* by sapplica
+/* by Webshar
 
 div.uploader.focus,
 div.uploader.hover,
@@ -334,7 +334,7 @@ div.selector.disabled span {
 
 /* uploader */
 div.uploader {
-	/*width: 190px; sapplica */ width: 115px !important;
+	/*width: 190px; Webshar */ width: 115px !important;
 	cursor: pointer;
 }
 
@@ -357,7 +357,7 @@ div.uploader span.filename {
 }
 
 div.uploader input {
-	/*width: 190px; sapplica */ width: 113px !important; cursor: pointer;  
+	/*width: 190px; Webshar */ width: 113px !important; cursor: pointer;  
 }
 
 div.uploader.disabled input { cursor: default !important; }
